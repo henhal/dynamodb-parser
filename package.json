@@ -1,0 +1,38 @@
+{
+  "name": "dynamodb-parser",
+  "version": "1.0.0",
+  "description": "A parser and encoder for DynamoDB records",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ts-mocha -R spec --recursive test/*",
+    "build": "tsc --build src/tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henhal/dynamodb-parser.git"
+  },
+  "keywords": [
+    "DynamoDB",
+    "AWS",
+    "Parser"
+  ],
+  "author": "Henrik Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henhal/dynamodb-parser/issues"
+  },
+  "homepage": "https://github.com/henhal/dynamodb-parser#readme",
+  "dependencies": {
+    "aws-lambda": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.64",
+    "@types/chai": "^4.2.13",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.11.8",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "ts-mocha": "^7.0.0",
+    "typescript": "^4.0.3"
+  }
+}
